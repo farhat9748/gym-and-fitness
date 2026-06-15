@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gym Membership Plans</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body{
+        background:#f4f4f4;
+        padding:50px;
+    }
+
+    .container{
+        max-width:1200px;
+        margin:auto;
+        text-align:center;
+    }
+
+    .container h1{
+        margin-bottom:15px;
+        color:#333;
+    }
+
+    .container p{
+        margin-bottom:40px;
+        color:#666;
+    }
+
+    .plans{
+        display:flex;
+        justify-content:center;
+        flex-wrap:wrap;
+        gap:30px;
+    }
+
+    .card{
+        background:#fff;
+        width:300px;
+        padding:30px;
+        border-radius:15px;
+        box-shadow:0 5px 15px rgba(0,0,0,0.1);
+        transition:0.3s;
+    }
+
+    .card:hover{
+        transform:translateY(-10px);
+    }
+
+    .card h2{
+        color:#ff5722;
+        margin-bottom:20px;
+    }
+
+    .price{
+        font-size:35px;
+        font-weight:bold;
+        color:#222;
+        margin-bottom:20px;
+    }
+
+    ul{
+        list-style:none;
+        margin-bottom:25px;
+    }
+
+    ul li{
+        padding:8px;
+        color:#555;
+    }
+
+    .btn{
+        display:inline-block;
+        padding:12px 25px;
+        background:#ff5722;
+        color:#fff;
+        text-decoration:none;
+        border-radius:30px;
+        font-weight:bold;
+    }
+
+    .btn:hover{
+        background:#e64a19;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Gym Membership Plans</h1>
+    <p>Choose a membership plan and enjoy fitness training, modern equipment, and expert guidance.</p>
+
+    <div class="plans">
+
+        <!-- Basic Plan -->
+        <div class="card">
+            <h2>Basic Plan</h2>
+            <div class="price">₹999/month</div>
+
+            <ul>
+                <li>✔ Gym Access</li>
+                <li>✔ Cardio Equipment</li>
+                <li>✔ Locker Facility</li>
+                <li>✔ Free Fitness Assessment</li>
+            </ul>
+
+            <a href="#" class="btn">Subscribe Now</a>
+        </div>
+
+        <!-- Standard Plan -->
+        <div class="card">
+            <h2>Standard Plan</h2>
+            <div class="price">₹1,999/month</div>
+
+            <ul>
+                <li>✔ Gym Access</li>
+                <li>✔ Yoga & Zumba Classes</li>
+                <li>✔ Diet Consultation</li>
+                <li>✔ Locker Facility</li>
+            </ul>
+
+            <a href="#" class="btn">Subscribe Now</a>
+        </div>
+
+        <!-- Premium Plan -->
+        <div class="card">
+            <h2>Premium Plan</h2>
+            <div class="price">₹3,499/month</div>
+
+            <ul>
+                <li>✔ Unlimited Gym Access</li>
+                <li>✔ Personal Trainer</li>
+                <li>✔ Yoga, Zumba & Aerobics</li>
+                <li>✔ Customized Diet Plan</li>
+            </ul>
+
+            <a href="#" class="btn">Subscribe Now</a>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</htm
